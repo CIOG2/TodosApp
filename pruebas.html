@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-color: burlywood;
+    }  
+    button{
+        width: 150px;
+        height: 50px;
+        border-radius: 20px;
+        border: none;
+        box-shadow: -2px 3px 5px 1px rgb(0 0 0);
+    }
+</style>
+<body>
+        <button id="botoon" type="button" onclick="CambioColor()">CAMBIO DE COLOR</button>
+</body>
+
+<script>
+    let Boton = document.getElementById("botoon");
+    function ramdom(){
+        let color = Math.floor(Math.random()*16777215).toString(16);
+        return "#"+color;
+    }
+    function CambioColor() {
+        Boton.style.backgroundColor = ramdom();
+        Boton.style.color = ramdom();
+    }
+
+
+
+
+
+
+
+
+let boton = document.getElementById("boton");
+
+
+
+
+
+
+
+
+</script>
+</html>

@@ -1,0 +1,16 @@
+.TodoButton{
+    position: fixed;
+    left: calc(95% - 50px);
+    top: calc(95% - 50px);
+    width: 60px;
+    height: 60px;
+    font-size: 5rem;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    box-shadow: 0px 3px 10px 1px #000000;
+    z-index: 2;
+    transition: all .5s;
+}

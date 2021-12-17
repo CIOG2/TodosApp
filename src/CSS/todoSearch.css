@@ -1,0 +1,9 @@
+.TodoSearh{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 0 0 15px;
+    outline: none;
+    box-shadow: 0px 3px 10px 1px #000000;
+}

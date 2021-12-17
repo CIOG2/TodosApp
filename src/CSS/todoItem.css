@@ -1,0 +1,61 @@
+.ItemLi{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.ItemTarea{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    min-height: 80px;
+    margin: 12px 0;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px 1px #000000;
+}
+
+.ItemCrear{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    font-size: 2rem;    
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 50%;
+    text-shadow: 1px 1px 3px #000000;
+    box-shadow: 0px 0px 5px 2px #000000;
+    left: -3px;
+    top: -2px;
+}
+
+.ItemBorrar{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    font-size: 2rem;    
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 50%;
+    text-shadow: 1px 1px 3px #000000;
+    box-shadow: 0px 0px 5px 2px #000000;
+    top: -2px;
+    right: -3px;
+}

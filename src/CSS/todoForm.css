@@ -1,0 +1,50 @@
+.ModalContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 70%;
+    max-width: 450px;
+    max-height: 500px;
+    background-color: #EEEEEE;
+    border-radius: 30px;
+}
+
+
+.ModalForm{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 85%;
+    min-height: 70%;
+    height: auto;
+}
+
+.ModalForm label{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.ModalForm textarea{
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    padding: 10px 5px;
+    outline: none;
+    border-radius: 10px;
+    resize: none;
+}
+
+.ModalButton{
+    width: 120px;
+    height: 50px;
+    font-size: 1.5rem;
+    background-color: #00fff5;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 3px 7px -1px #000000;
+    margin-bottom: 10px;
+}
