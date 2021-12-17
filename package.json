@@ -41,5 +41,5 @@
   "devDependencies": {
     "gh-pages": "^3.2.3"
   },
-  "homePages": "https://CIOG2.github.io/TODOs"
+  "homePages": "."
 }
